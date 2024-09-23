@@ -5,7 +5,7 @@ body{
 
 
 header,footer{
-    background: #6445fb !important; 
+    background: #6445fb; 
     color:#d7f7b7;
 }
 /* 
@@ -75,5 +75,55 @@ p img{
 
 footer{
     background: #000; 
-    background-color: #ff470f5a;
+    /* background-color: #ff470f5a; */
+    padding: 20px;
+    margin-top: 50px;
+    color:white;
+}
+
+
+
+/* Members page */
+
+
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:40px; 
+        
+}
+
+.member{
+    border: 1px solid rgba(255, 255, 255, 0.766);
+    padding: 15px;
+}
+
+
+.contact form{
+    margin-top: 50px;
+
+}
+
+.contact form div{
+    margin:10px; 
+}
+.contact label{
+    display: block;
+}
+
+.contact input, .contact textarea{
+    padding:4px;
+    width: 100%;
+    resize: none;
+}
+
+
+form{
+    padding: 20px;
+    background-color: white;
+    width: 250px;
+    margin: auto;
 }
