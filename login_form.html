@@ -78,7 +78,7 @@
             border:none;
         }
 
-            .forgot_password_link,.not_member_text{
+            .forgot_password_link,.sign_up_link{
                 text-decoration: none;
                 color:#58D5E3;
             }
@@ -87,6 +87,11 @@
                 top:10px;
             }
 
+            .signup{
+                display: flex;
+                justify-content: center;
+                gap:10px;
+            }
     </style>
 </head>
 
@@ -113,7 +118,7 @@
             <div class="form_element">
                 <button type="submit" class="submit_btn">Login</button>
             </div>
-            <div class="form_element">
+            <div class="form_element signup">
                 <span class="not_member_text">Not a member?</span>
                 <a href="#" class="sign_up_link">Sign up now</a>
             </div>
