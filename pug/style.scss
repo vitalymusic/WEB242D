@@ -1,0 +1,15 @@
+$base_color:#e71616;
+
+@mixin gradient1{
+    background-image: linear-gradient(45deg,#280574,#0774f1);
+    background-size: 200% 100%;
+}
+
+
+
+body{
+    background-color: $base_color;
+    @include gradient1
+}
+
+@import "_head.scss"
